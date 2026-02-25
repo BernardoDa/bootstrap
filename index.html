@@ -298,6 +298,13 @@
                         <img src="img/galeria_04.jpg" alt="slide 1" class="d-block w-100">
                     </div>
 
+                    <button type="button" class="carousel-control-prev" data-bs-target="#indicadores" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#indicadores" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
                 </div>
             </div>
         </div>
@@ -306,6 +313,46 @@
     
     <section class="seccion">
         <h1 class="text-center my-5 heading">Modals</h1>
+
+        <div class="container-xl">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Ver formulario</button>
+        </div>
+
+        <!-- Modal  -->
+
+        <div id="modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h2>Nuevo cliente</h2>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <legend>Nuevo cliente </legend>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input id="nombre" type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="empresa" class="form-label">Empresa</label>
+                                <input id="empresa" type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" type="email" class="form-control">
+                            </div>
+                        
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Registrar cliente</button>
+                        <button data-bs-dismiss="modal" type="button" class="btn btn-danger">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
