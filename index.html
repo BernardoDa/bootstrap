@@ -358,11 +358,64 @@
 
     <section class="seccion">
         <h1 class="text-center my-5 heading">Navs</h1>
+
+        <div class="container-xl">
+            <ul class="nav flex-column flex-md-row">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tienda virtual</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#" class="dropdown-item">Categorías</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">Categorías</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">Categorías</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
    
     </section>
     
     <section class="seccion">
         <h1 class="text-center my-5 heading">Off Canvas</h1>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+            Administrar perfil
+        </button>
+
+        <div id="menu" class="offcanvas offcanvas-start">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-tittle">Navegacion</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h2>Administracion</h2>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tarjetas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
 
     </section>
 
